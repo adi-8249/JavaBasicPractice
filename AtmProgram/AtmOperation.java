@@ -1,4 +1,4 @@
-package AtmProgram;
+package JavaBasicPractice.AtmProgram;
 
 import java.sql.SQLOutput;
 import java.util.Scanner;
@@ -39,7 +39,6 @@ public class AtmOperation
 
                 case 2:
                     System.out.println("Enter the amount to be deposited");
-
                     deposite = sc.nextInt();
 
                     balance = balance + deposite;
